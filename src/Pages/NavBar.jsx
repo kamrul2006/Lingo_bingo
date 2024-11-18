@@ -1,20 +1,23 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
 
 
-const Links = <>
-    <li><Link to={'/'}>Home</Link></li>
-    <li><Link>Start-learning</Link></li>
-    <li><Link>Tutorials</Link></li>
-    <li><Link>About-us </Link></li>
-    <li><Link>Dashboard</Link></li>
-</>
+
 
 const NavBar = () => {
     //---------------------------Using context--------------------
     const { user, UserSignOut } = useContext(AuthContext)
 
+    const NavLinks = <>
+        <li><NavLink to={'/'}>Home</NavLink></li>
+        <li><NavLink to={'/startLearning'}>{"Let's"}-learn</NavLink></li>
+        <li><NavLink to={'/tutorials'}>Tutorials</NavLink></li>
+        <li><NavLink to={'/aboutUs'}>About-us </NavLink></li>
+        {user && <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>}
+        {user && <li><NavLink to={'/dashboard'}>My Profile</NavLink></li>}
+
+    </>
 
     return (
         <div>
@@ -27,31 +30,34 @@ const NavBar = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            {Links}
+                            {NavLinks}
                         </ul>
                     </div>
                     <img src="https://cdn-icons-png.flaticon.com/256/5280/5280696.png" className="w-8 ml-4  md:w-14" />
-                    <Link to={'/f'} className="text-lg font-serif mx-2 md:text-3xl lg:text-4xl font-bold">Lingo <span className="text-blue-500">Bingo</span></Link>
+                    <NavLink to={'/'} className="text-lg font-serif mx-2 md:text-3xl lg:text-4xl font-bold">Lingo <span className="text-blue-500">Bingo</span></NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        {Links}
+                        {NavLinks}
                     </ul>
                 </div>
                 <div className="navbar-end">
                     {user ?
-                        <div className="md:flex items-center gap-3">
+                        <div className="flex items-center gap-3">
                             <div className="md:w-14 w-8 h-8 md:h-14">
                                 <img src={user.photoURL} className="w-full h-full object-cover border-2 border-yellow-400 rounded-full" />
                             </div>
                             <div>
                                 <p className="hidden md:block text-lg font-semibold">{user && user.displayName}</p>
-                                <button className="btn btn-xs text-xs md:text-sm btn-warning" onClick={UserSignOut}>Sign Out </button>
+                                <button className="hidden md:block btn btn-xs text-xs md:text-sm btn-warning" onClick={UserSignOut}>Sign Out </button>
+                                <button className="btn btn-ghost btn-circle md:hidden btn-xs" onClick={UserSignOut}>
+                                    <img src="https://img.icons8.com/nolan/64/exit.png" alt="exit" className="w-7" />
+                                </button>
                             </div>
                         </div> :
                         <div className="flex items-center gap-3">
                             <img src="https://cdn-icons-png.flaticon.com/512/8214/8214212.png" className="w-8 mr-2  md:w-10" />
-                            <Link to={'/login'} className="btn btn-info btn-xs  md:btn-sm">Log In</Link>
+                            <NavLink to={'/login'} className="btn btn-info btn-xs  md:btn-sm">Log In</NavLink>
                         </div>}
                 </div>
             </div>
