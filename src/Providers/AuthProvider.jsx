@@ -51,7 +51,7 @@ const AuthProvider = ({ children }) => {
         LoginUser,
         UserSignOut,
         loading,
-        updatedProfile
+        updatedProfile,
     }
 
     useEffect(() => {

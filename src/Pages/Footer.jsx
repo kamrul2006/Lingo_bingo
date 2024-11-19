@@ -10,7 +10,7 @@ const Footer = () => {
             <footer className="footer footer-center bg-base-200 text-base-content rounded p-10">
                 <nav className="md:flex gap-4">
                     <Link to={'/'}>Home</Link>
-                    <Link to={'/startLearning'}>{"Let's"}-learn</Link>
+                    <Link to={'/lesson'}>{"Let's"}-learn</Link>
                     <Link to={'/tutorials'}>Tutorials</Link>
                     <Link to={'/aboutUs'}>About-us </Link>
                     {user && <Link to={'/dashboard'}>Dashboard</Link>}

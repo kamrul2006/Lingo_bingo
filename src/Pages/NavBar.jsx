@@ -11,7 +11,7 @@ const NavBar = () => {
 
     const NavLinks = <>
         <li><NavLink to={'/'}>Home</NavLink></li>
-        <li><NavLink to={'/startLearning'}>{"Let's"}-learn</NavLink></li>
+        <li><NavLink to={'/lesson'}>{"Let's"}-learn</NavLink></li>
         <li><NavLink to={'/tutorials'}>Tutorials</NavLink></li>
         <li><NavLink to={'/aboutUs'}>About-us </NavLink></li>
         {user && <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>}

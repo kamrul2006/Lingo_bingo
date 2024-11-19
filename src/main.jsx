@@ -12,6 +12,7 @@ import PrivetRout from './Privet/Privetrought.jsx';
 import DashBoard from './LayOuts/DashBoard.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Lesson from './LayOuts/Lesson.jsx';
+import WordToShow from './Components/WordToShow.jsx';
 
 
 const router = createBrowserRouter([
@@ -41,26 +42,22 @@ const router = createBrowserRouter([
         element: <AboutUs></AboutUs>
       },
       {
-        path: '/startLearning',
-        loader: (() => fetch('./Categories.json')),
+        path: '/lesson',
         element: <Lesson></Lesson>
+      },
+      {
+        path: '/lesson/:lesson_no',
+        loader: (() => fetch('/Words.json')),
+        element: <PrivetRout><WordToShow></WordToShow></PrivetRout>
       },
       {
         path: '/dashboard',
         element: <PrivetRout><DashBoard></DashBoard></PrivetRout>
       },
-      {
-        path: '/lesson/:lesson_no',
-        element: <PrivetRout><DashBoard></DashBoard></PrivetRout>
-      },
+
     ]
   },
 
-  // {
-  //   path: "/news/:id",
-  //   // loader: ({ params }) => fetch(`https://openapi.programming-hero.com/api/news/${params.id}`),
-  //   element: <PrivetRout></PrivetRout>
-  // },
 
 ]);
 

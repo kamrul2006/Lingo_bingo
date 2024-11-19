@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "image": "https://img.freepik.com/free-photo/portrait-happy-smiley-man_23-2149022627.jpg",
+        "text": "This platform made learning Spanish so easy! I love the interactive tutorials.",
+        "rating": 5
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ64sX-fITQYYzEbbDwe1sct6tJ9w_JxBmB1g&s",
+        "text": "The tutorials are engaging, and I learned vocabulary much faster than I expected!",
+        "rating": 4
+    },
+    {
+        "id": 3,
+        "name": "Parlay Das",
+        "image": "https://img.freepik.com/premium-photo/satisfied-young-indian-man-wearing-white-tshirt-showing-thumbs-up-like-gesture-showing-his-approval-gesturing-with-both-hands-smiling-looking-camera-isolated-pink-background-l-like-it_248459-612.jpg",
+        "text": "The best language learning website! Highly recommended for beginners.",
+        "rating": 5
+    },
+    {
+        "id": 4,
+        "name": "Emily Johnson",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWBjIYrIWeZ8lJBcv1AS8aPSm9hvrQjaY6M_iHU3-tLhK5C_w6102a8-fRqvyJZpVZ8Q&usqp=CAU",
+        "text": "The lessons are so well-structured. I’m now confident in speaking German!",
+        "rating": 4
+    },
+    {
+        "id": 5,
+        "name": "Michael Brown",
+        "image": "https://st3.depositphotos.com/1743476/15711/i/450/depositphotos_157113714-stock-photo-happy-african-american-man.jpg",
+        "text": "I never thought learning a new language could be this fun and effective!",
+        "rating": 5
+    },
+    {
+        "id": 6,
+        "name": "Kamrul Islam Apurba",
+        "image": "https://cdn-icons-png.flaticon.com/512/3237/3237472.png",
+        "text": "The best language learning website! Highly recommended for beginners.f",
+        "rating": 4
+    }
+]

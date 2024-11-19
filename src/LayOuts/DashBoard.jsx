@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const DashBoard = () => {
     const { user } = useContext(AuthContext)
-    console.log(user)
+    // console.log(user)
     return (
         <div className="mx-auto flex flex-col justify-center items-center">
             {user &&
