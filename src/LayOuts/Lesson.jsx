@@ -74,7 +74,7 @@ const Lesson = () => {
                 </div>
 
                 <div className="hidden md:block sticky top-0 col-span-2">
-                    <img src={les} className="mx-auto sticky top-16 w-3/4" />
+                    <img src={les} alt="*" className="mx-auto sticky top-16 w-3/4" />
                 </div>
             </div>
         </div>

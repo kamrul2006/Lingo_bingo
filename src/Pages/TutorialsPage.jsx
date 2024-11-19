@@ -20,7 +20,7 @@ const TutorialsPage = () => {
 
             <div className="grid lg:grid-cols-7 mx-4 md:mx-10 my-2 md:my-8 font-serif">
                 <div className="hidden col-span-2 lg:block">
-                    <img src={Tut} alt="" className="w-3/4 sticky top-5 mx-auto" />
+                    <img src={Tut} alt="*" className="w-3/4 sticky top-5 mx-auto" />
                 </div>
 
                 <div className="grid col-span-5 lg:grid-cols-2 bg-slate-300 p-4 rounded-xl">
