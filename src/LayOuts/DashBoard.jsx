@@ -1,9 +1,14 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AuthContext } from "../Providers/AuthProvider";
 import { Link } from "react-router-dom";
 
 
 const DashBoard = () => {
+    useEffect(() => {
+        document.title = "Lingo Bingo || My Profile"
+    }, [])
+
+
     const { user } = useContext(AuthContext)
     // console.log(user)
     return (
@@ -37,7 +42,7 @@ const DashBoard = () => {
 
                     <div className="flex items-center justify-between">
                         <p className="font-semibold text-xl hover:text-yellow-500">Want To update Information   {">>>>>"} </p>
-                        <Link to={'/udateprofile'} className="btn btn-neutral btn-sm btn-outline my-4">Update Profile Info</Link>
+                        <Link to={'/dashboard/updateInfo'} className="btn btn-neutral btn-sm btn-outline my-4">Update Profile Info</Link>
 
                     </div>
 

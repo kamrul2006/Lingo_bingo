@@ -14,13 +14,15 @@ const NavBar = () => {
         <li><NavLink to={'/lesson'}>{"Let's"}-learn</NavLink></li>
         <li><NavLink to={'/tutorials'}>Tutorials</NavLink></li>
         <li><NavLink to={'/aboutUs'}>About-us </NavLink></li>
-        {user && <li><NavLink to={'/dashboard'}>Dashboard</NavLink></li>}
         {user && <li><NavLink to={'/dashboard'}>My Profile</NavLink></li>}
 
     </>
 
     return (
         <div>
+            {user && <p className="text-center  font-semibold py-1 italic font-serif bg-sky-400 flex items-center justify-center gap-2">
+                <img src="https://cdn.pixabay.com/animation/2022/10/11/03/16/03-16-38-134_512.gif" alt="Welcome" className="w-28" />
+                {user.displayName} </p>}
             <div className="navbar bg-base-100 md:px-10">
                 <div className="navbar-start">
                     <div className="dropdown">

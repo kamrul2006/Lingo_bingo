@@ -1,6 +1,11 @@
+import { useEffect } from 'react';
 import about from '../assets/About.png'
 
 const AboutUs = () => {
+    useEffect(() => {
+        document.title = "Lingo Bingo || About us"
+    }, [])
+
     return (
         <div className="md:flex gap-3 mx-2 my-5 md:my-8 lg:my-14 md:mx-10 lg:mx-14">
             <div className='hidden md:block'>

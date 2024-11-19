@@ -13,6 +13,8 @@ import DashBoard from './LayOuts/DashBoard.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 import Lesson from './LayOuts/Lesson.jsx';
 import WordToShow from './Components/WordToShow.jsx';
+import TutorialsPage from './Pages/TutorialsPage.jsx';
+import UpdateInfo from './Components/Updateinfo.jsx';
 
 
 const router = createBrowserRouter([
@@ -39,7 +41,7 @@ const router = createBrowserRouter([
       },
       {
         path: '/tutorials',
-        element: <AboutUs></AboutUs>
+        element: <PrivetRout><TutorialsPage></TutorialsPage></PrivetRout>
       },
       {
         path: '/lesson',
@@ -53,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: '/dashboard',
         element: <PrivetRout><DashBoard></DashBoard></PrivetRout>
+      },
+      {
+        path: '/dashboard/updateInfo',
+        element: <PrivetRout><UpdateInfo>F</UpdateInfo></PrivetRout>
       },
 
     ]

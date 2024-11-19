@@ -13,7 +13,6 @@ const Footer = () => {
                     <Link to={'/lesson'}>{"Let's"}-learn</Link>
                     <Link to={'/tutorials'}>Tutorials</Link>
                     <Link to={'/aboutUs'}>About-us </Link>
-                    {user && <Link to={'/dashboard'}>Dashboard</Link>}
                     {user && <Link to={'/dashboard'}>My Profile</Link>}
                 </nav>
                 <nav>
