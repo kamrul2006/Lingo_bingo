@@ -1,1 +1,1 @@
-# Lingo Bingo 🌍
+# Lingo Bingo🌍

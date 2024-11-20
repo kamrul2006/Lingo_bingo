@@ -49,6 +49,18 @@ const AuthProvider = ({ children }) => {
     }
 
 
+    //----------------------------------TEXT_TO_SPEECH---------------------------
+    const WordBoLa = (w) => {
+        if ("speechSynthesis" in window) {
+            const KotahBola = new SpeechSynthesisUtterance(w);
+            KotahBola.lang = "hi-IN"; // Set language to English
+            speechSynthesis.speak(KotahBola);
+        } else {
+            alert("Sorry LINGO BINGO cant't do text-to-speech at this minuet.");
+        }
+    };
+
+
     //------------value here--------------------------
     const authInfo = {
         user,
@@ -58,7 +70,8 @@ const AuthProvider = ({ children }) => {
         UserSignOut,
         loading,
         updatedProfile,
-        GoogleLogin
+        GoogleLogin,
+        WordBoLa
     }
 
     useEffect(() => {
