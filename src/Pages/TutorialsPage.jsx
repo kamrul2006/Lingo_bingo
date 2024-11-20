@@ -117,7 +117,7 @@ const TutorialsPage = () => {
                         <iframe src="https://www.youtube.com/embed/LcFlvXYCGUc?si=0FvYIkQCppAM4zsV&amp;start=2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen className="mx-auto rounded-lg shadow-lg md:w-[400px] w-3/4 h-60"></iframe>
                     </div>
 
-                    <div className=" text-center flex flex-col items-center justify-center text-xl ">
+                    <div className=" text-center flex flex-col items-center justify-center text-xl my-5 md:my-0">
                         <Link to={"/lesson"}>
                             <p className=" bg-sky-600 hover:bg-sky-500 py-2 px-5 text-white rounded-lg">Learn Vocabularies</p>
 

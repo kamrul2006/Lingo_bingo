@@ -28,7 +28,7 @@ const Banner = () => {
             </div>
 
             <div className="absolute left-5 right-5 top-[420px] md:top-1/2 flex -translate-y-1/2 transform gap-2 md:justify-between">
-              <a href="#item1" className="btn btn-xs md:btn-sm btn-primary btn-circle">1</a>
+              <a href="#item4" className="btn btn-xs md:btn-sm btn-primary btn-circle">❮ 4</a>
               <a href="#item2" className="btn btn-xs md:btn-sm btn-primary btn-circle">2 ❯</a>
             </div>
 
@@ -38,7 +38,7 @@ const Banner = () => {
           {/* --------------------slide-2------------------- */}
 
           <div id="item2" className="carousel-item relative w-full">
-            <div className="md:flex items-center justify-around w-full md:py-10 md:px-8 bg-blue-50 rounded-2xl">
+            <div className="md:flex items-center justify-around w-full md:py-10 md:px-16 bg-blue-50 rounded-2xl">
 
               <div className="md:w-[400px] w-60 md:h-[400px] h-60 mx-auto">
                 <img src={lan2} alt="" className="w-full h-full mx-auto" />
@@ -64,7 +64,7 @@ const Banner = () => {
           {/* --------------------slide-4------------------- */}
 
           <div id="item4" className="carousel-item relative w-full">
-            <div className="md:flex items-center justify-around w-full md:py-10 md:px-8 bg-green-50 rounded-2xl">
+            <div className="md:flex items-center justify-around w-full md:py-10 md:px-16 bg-green-50 rounded-2xl">
 
               <div className="md:w-[400px] w-60 md:h-[400px] h-60 mx-auto">
                 <img src={lan3} alt="" className="w-full h-full mx-auto" />
@@ -77,7 +77,7 @@ const Banner = () => {
 
                 <div className="absolute left-5 right-5 top-[420px] md:top-1/2 flex -translate-y-1/2 transform gap-2 md:justify-between">
                   <a href="#item3" className="btn btn-xs md:btn-sm btn-info btn-circle">❮ 3</a>
-                  <a href="#item4" className="btn btn-xs md:btn-sm btn-info btn-circle">4</a>
+                  <a href="#item1" className="btn btn-xs md:btn-sm btn-info btn-circle">1 ❯</a>
                 </div>
 
               </div>
@@ -90,8 +90,8 @@ const Banner = () => {
           {/* --------------------slide-3------------------- */}
 
           <div id="item3" className="carousel-item relative w-full">
-            <div className="flex items-center justify-around w-full md:py-7 md:px-8 bg-orange-50 rounded-2xl">
-              <div className="md:flex items-center justify-around w-full py-5 bg-gray-50 rounded-2xl">
+            <div className="w-full md:py-7 md:px-8 bg-orange-50 rounded-2xl">
+              <div className="md:flex items-center justify-around w-full">
                 <div>
                   <h1 className="md:text-5xl text-2xl font-bold text-center font-serif">Practice your lesson everyday<br />with <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>🤓</h1>
 

@@ -65,50 +65,50 @@ const LoginPage = () => {
         <form onSubmit={HandleLogin} className="space-y-6">
           {/* Email Field */}
           <div className="relative">
+            <label className="text-sm my-1">
+              Email Address
+            </label>
             <input
               type="email"
               id="email"
               name="email"
               className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
-              placeholder=" "
+              placeholder="Enter Your Email. "
               required
             />
-            <label
-              htmlFor="email"
-              className="absolute px-3 left-3 -top-3 text-white-500 bg-white transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:left-4 peer-focus:-top-3 peer-focus:left-3 peer-focus:text-blue-500 rounded-xl peer-focus:border peer-focus:border-blue-500 text-xs"
-            >
-              Email Address
-            </label>
           </div>
 
           {/* Password Field */}
           <div className="relative">
+            <label className="my-1 text-sm">
+              Password
+            </label>
             <input
               type={show ? "text" : "password"}
               id="password"
               name="password"
               className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
-              placeholder=" "
+              placeholder="Enter Password. "
               required
             />
-            <label
-              htmlFor="password"
-              className="absolute px-3 left-3 -top-3 text-white-500 bg-white transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:left-4 peer-focus:-top-3 peer-focus:left-3 peer-focus:text-blue-500 rounded-xl peer-focus:border peer-focus:border-blue-500 text-xs"
-            >
-              Password
+
+            {/* --------------------------Forgot password section---------------------- */}
+
+            {/* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox */}
+            <label className=" text-sm"><Link to='/signUp' className="text-indigo-500 font-semibold hover:underline">Forgot password?</Link>
             </label>
-            <button onClick={ShowPassWord} className="btn btn-ghost btn-xs absolute right-3 top-2 text-lg">
+
+            <button onClick={ShowPassWord} className="btn btn-ghost btn-xs absolute right-3 top-8 text-lg">
               {show ? <FaEyeSlash /> : <FaEye />}
             </button>
           </div>
 
           {error && <p className="text-xs font-semibold text-red-500 text-center">{error}</p>}
 
-
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-3 bg-gradient-to-r from-indigo-500 to-purple-500 text-white font-semibold rounded-lg hover:from-purple-600 hover:to-indigo-600 transition duration-300"
+            className="w-full py-1 bg-purple-500 text-white font-semibold rounded-full hover:bg-indigo-600 transition duration-300"
           >
             Log In
           </button>

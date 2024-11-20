@@ -3,8 +3,12 @@ import { Link, useLoaderData, useParams } from "react-router-dom";
 
 
 const WordToShow = () => {
-
     const lessonNo = useParams()
+
+    useEffect(() => {
+        document.title = `Lingo Bingo || Lesson ${lessonNo.lesson_no}`
+    }, [])
+
     const Data = useLoaderData();
     const [Word, setWord] = useState([])
     const [mWord, setMWord] = useState({})
@@ -32,6 +36,7 @@ const WordToShow = () => {
             <div className="my-2 md:my-10 text-center">
                 <h1 className="text-xl text-yellow-600">Here you Go:</h1>
                 <h1 className="text-6xl font-serif text-sky-600">Your Lesson {lessonNo.lesson_no} Started.</h1>
+                <p className="font-semibold font-sans py-2 bg-slate-50 my-1"><span className="text-green-500"> Easy word </span> -- <span className="text-orange-500">Medium word</span> -- <span className="text-red-500">Difficult word</span></p>
             </div>
 
             <div className="grid gap-2 lg:grid-cols-4 md:grid-cols-3 mx-4 my-2 md:my-10 md:mx-20 text-center">

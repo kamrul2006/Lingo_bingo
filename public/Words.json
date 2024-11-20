@@ -60,7 +60,7 @@
         "pronunciation": "achcha",
         "meaning": "good, okay",
         "part_of_speech": "adjective/interjection",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 1,
         "when_to_say": "to express approval or understanding",
         "example": "अच्छा, चलिए चलते हैं। (Achcha, chaliye chalte hain. - Okay, let's go.)"
@@ -82,7 +82,7 @@
         "pronunciation": "kaise",
         "meaning": "how",
         "part_of_speech": "adverb",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 1,
         "when_to_say": "to ask about manner or condition",
         "example": "आप कैसे हैं? (Aap kaise hain? - How are you?)"
@@ -93,7 +93,7 @@
         "pronunciation": "kyoon",
         "meaning": "why",
         "part_of_speech": "adverb",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 1,
         "when_to_say": "to ask for a reason",
         "example": "आप क्यों रो रहे हैं? (Kyoon ro rahe hain aap? - Why are you crying?)"
@@ -126,7 +126,7 @@
         "pronunciation": "kitna",
         "meaning": "how much",
         "part_of_speech": "adjective/adverb",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 1,
         "when_to_say": "to ask about quantity",
         "example": "आप कितना कमाते हैं? (Kitna kamate hain aap? - How much do you earn?)"
@@ -181,7 +181,7 @@
         "pronunciation": "ve",
         "meaning": "they",
         "part_of_speech": "pronoun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 1,
         "when_to_say": "to refer to a group of people",
         "example": "वे डॉक्टर हैं। (Ve doctor hain. - They are doctors.)"
@@ -203,7 +203,7 @@
         "pronunciation": "vah",
         "meaning": "that",
         "part_of_speech": "demonstrative pronoun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 1,
         "when_to_say": "to point to something far away",
         "example": "वह घर बड़ा है। (Vah ghar bada hai. - That house is big.)"
@@ -225,7 +225,7 @@
         "pronunciation": "skul",
         "meaning": "school",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 2,
         "when_to_say": "to refer to an educational institution",
         "example": "मैं स्कूल जाता हूँ। (Main skul jaata hoon. - I go to school.)"
@@ -269,7 +269,7 @@
         "pronunciation": "paani",
         "meaning": "water",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 2,
         "when_to_say": "to refer to a liquid substance",
         "example": "मुझे पानी पीना पसंद है। (Mujhe paani peena pasand hai. - I like to drink water.)"
@@ -302,7 +302,7 @@
         "pronunciation": "kafi",
         "meaning": "coffee",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 2,
         "when_to_say": "to refer to a hot beverage",
         "example": "वह कॉफी पीता है। (Vah kafi peeta hai. - He drinks coffee.)"
@@ -313,7 +313,7 @@
         "pronunciation": "pustak",
         "meaning": "book",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 2,
         "when_to_say": "to refer to a written work or publication",
         "example": "मैं पुस्तक पढ़ता हूँ। (Main pustak padhta hoon. - I read a book.)"
@@ -412,7 +412,7 @@
         "pronunciation": "havai jahaaz",
         "meaning": "airplane",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 3,
         "when_to_say": "to refer to an aircraft",
         "example": "मैं हवाई जहाज़ से जाता हूँ। (Main havai jahaaz se jaata hoon. - I go by airplane.)"
@@ -467,7 +467,7 @@
         "pronunciation": "adhyapaka",
         "meaning": "teacher",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 3,
         "when_to_say": "to refer to a person who teaches",
         "example": "अध्यापक ने हमें पढ़ाया। (Adhyapaka ne hamein padhaya. - The teacher taught us.)"
@@ -489,7 +489,7 @@
         "pronunciation": "kitabkhana",
         "meaning": "library",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 3,
         "when_to_say": "to refer to a place where books are kept",
         "example": "मैं किताबखाने जाता हूँ। (Main kitabkhane jaata hoon. - I go to the library.)"
@@ -533,7 +533,7 @@
         "pronunciation": "pahaad",
         "meaning": "mountain",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 4,
         "when_to_say": "to refer to a large natural elevation of the earth's surface",
         "example": "पहाड़ बहुत ऊँचा है। (Pahaad bahut uncha hai. - The mountain is very high.)"
@@ -599,7 +599,7 @@
         "pronunciation": "sabzi",
         "meaning": "vegetable",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 4,
         "when_to_say": "to refer to a plant or part of a plant that is eaten as food",
         "example": "सब्जी स्वस्थ होती है। (Sabzi swasth hoti hai. - Vegetables are healthy.)"
@@ -643,7 +643,7 @@
         "pronunciation": "chandrama",
         "meaning": "moon",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 5,
         "when_to_say": "to refer to the Earth's natural satellite",
         "example": "चंद्रमा चमकता है। (Chandrama chamakta hai. - The moon shines.)"
@@ -665,7 +665,7 @@
         "pronunciation": "aakash",
         "meaning": "sky",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 5,
         "when_to_say": "to refer to the expanse above the Earth's surface",
         "example": "आकाश नीला है। (Aakash nila hai. - The sky is blue.)"
@@ -698,7 +698,7 @@
         "pronunciation": "barsaat",
         "meaning": "rain",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 5,
         "when_to_say": "to refer to the falling of water droplets from the sky",
         "example": "बरसात हो रही है। (Barsaat ho rahi hai. - It is raining.)"
@@ -753,7 +753,7 @@
         "pronunciation": "shariir",
         "meaning": "body",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 6,
         "when_to_say": "to refer to the physical structure of a person",
         "example": "शरीर स्वस्थ रखो। (Shariir swasth rakho. - Keep the body healthy.)"
@@ -786,7 +786,7 @@
         "pronunciation": "aankh",
         "meaning": "eye",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 6,
         "when_to_say": "to refer to the organ of sight",
         "example": "आँखें बंद करो। (Aankhen band karo. - Close your eyes.)"
@@ -819,7 +819,7 @@
         "pronunciation": "muh",
         "meaning": "mouth",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 6,
         "when_to_say": "to refer to the opening through which food is taken in",
         "example": "मुँह बंद करो। (Muh band karo. - Close your mouth.)"
@@ -830,7 +830,7 @@
         "pronunciation": "haath",
         "meaning": "hand",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 6,
         "when_to_say": "to refer to the upper limb of a person",
         "example": "हाथ उठाओ। (Haath uthao. - Raise your hand.)"
@@ -874,7 +874,7 @@
         "pronunciation": "kapda",
         "meaning": "cloth",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 7,
         "when_to_say": "to refer to a material used for clothing",
         "example": "कपड़ा धो लो। (Kapda dho lo. - Wash the clothes.)"
@@ -918,7 +918,7 @@
         "pronunciation": "ghadi",
         "meaning": "watch",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 7,
         "when_to_say": "to refer to a device for measuring time",
         "example": "घड़ी देखो। (Ghadi dekho. - Look at the watch.)"
@@ -951,7 +951,7 @@
         "pronunciation": "pencil",
         "meaning": "pencil",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 7,
         "when_to_say": "to refer to a writing instrument",
         "example": "पेंसिल तेज करो। (Pencil tej karo. - Sharpen the pencil.)"
@@ -962,7 +962,7 @@
         "pronunciation": "camera",
         "meaning": "camera",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 7,
         "when_to_say": "to refer to a device for taking photographs",
         "example": "कैमरा चलाओ। (Camera chalao. - Operate the camera.)"
@@ -1017,7 +1017,7 @@
         "pronunciation": "television",
         "meaning": "television",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 7,
         "when_to_say": "to refer to an electronic device for watching programs",
         "example": "टेलीविज़न देखो। (Television dekho. - Watch television.)"
@@ -1083,7 +1083,7 @@
         "pronunciation": "kafi",
         "meaning": "coffee",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 8,
         "when_to_say": "to refer to a hot beverage",
         "example": "कॉफी पीओ। (Kafi pio. - Drink coffee.)"
@@ -1105,7 +1105,7 @@
         "pronunciation": "roti",
         "meaning": "bread",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 8,
         "when_to_say": "to refer to a flat baked food",
         "example": "रोटी खाओ। (Roti khao. - Eat bread.)"
@@ -1116,7 +1116,7 @@
         "pronunciation": "chawal",
         "meaning": "rice",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "difficult",
         "lesson_no": 8,
         "when_to_say": "to refer to a type of grain",
         "example": "चावल खाओ। (Chawal khao. - Eat rice.)"
@@ -1160,7 +1160,7 @@
         "pronunciation": "mithai",
         "meaning": "sweet",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to refer to a sweet dish",
         "example": "मिठाई खाओ। (Mithai khao. - Eat sweets.)"
@@ -1193,7 +1193,7 @@
         "pronunciation": "churi",
         "meaning": "knife",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to refer to a sharp instrument used for cutting",
         "example": "छुरी से काटो। (Churi se kaato. - Cut with a knife.)"
@@ -1215,7 +1215,7 @@
         "pronunciation": "gilaas",
         "meaning": "glass",
         "part_of_speech": "noun",
-        "difficulty": "easy",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to refer to a container for drinking",
         "example": "गिलास में पानी डालो। (Gilaas mein paani daalo. - Pour water into the glass.)"
@@ -1540,14 +1540,15 @@
         "example": "हम रात को खाना खाते हैं। (Ham raat ko khana khate hain. - We eat dinner at night.)"
     },
     {
-        "id": "word_39",
-        "pronunciation": "peena",
-        "meaning": "to drink",
-        "part_of_speech": "verb",
-        "difficulty": "medium",
+        "id": "word_35",
+        "word": "इंटरनेट",
+        "pronunciation": "internet",
+        "meaning": "internet",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
         "lesson_no": 10,
-        "when_to_say": "to express the action of drinking liquid",
-        "example": "मैं पानी पीता हूँ। (Main paani peeta hoon. - I drink water.)"
+        "when_to_say": "to refer to a global network of computers",
+        "example": "मैं इंटरनेट पर सर्च करता हूँ। (Main internet par search karta hoon. - I search on the internet.)"
     },
     {
         "id": "word_130",
@@ -1555,7 +1556,7 @@
         "pronunciation": "sona",
         "meaning": "to sleep",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of sleeping",
         "example": "रात को सोना चाहिए। (Raat ko sona chahiye. - One should sleep at night.)"
@@ -1577,7 +1578,7 @@
         "pronunciation": "baithna",
         "meaning": "to sit",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of sitting",
         "example": "कृपया बैठिए। (Kripya baithie. - Please sit down.)"
@@ -1599,7 +1600,7 @@
         "pronunciation": "chalna",
         "meaning": "to walk",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of walking",
         "example": "रोज़ सुबह चलना चाहिए। (Roz subah chalna chahiye. - One should walk every morning.)"
@@ -1643,7 +1644,7 @@
         "pronunciation": "rona",
         "meaning": "to cry",
         "part_of_speech": "verb",
-        "difficulty": "medium",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of crying",
         "example": "मत रोओ। (Mat ro. - Don't cry.)"
@@ -1929,7 +1930,7 @@
         "pronunciation": "aana",
         "meaning": "to come",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of coming somewhere",
         "example": "वह कल आएगा। (Vah kal aayega. - He will come tomorrow.)"
@@ -1940,7 +1941,7 @@
         "pronunciation": "hona",
         "meaning": "to be",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express existence or state of being",
         "example": "वह डॉक्टर है। (Vah doctor hai. - He is a doctor.)"
@@ -1951,7 +1952,7 @@
         "pronunciation": "lena",
         "meaning": "to take",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of taking something",
         "example": "मैं किताब ले लूँगा। (Main kitab le loonga. - I will take the book.)"
@@ -1962,7 +1963,7 @@
         "pronunciation": "dena",
         "meaning": "to give",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 10,
         "when_to_say": "to express the action of giving something",
         "example": "मुझे पेन दो। (Mujhe pen do. - Give me the pen.)"
@@ -2171,7 +2172,7 @@
         "pronunciation": "sunna",
         "meaning": "to listen",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to express the action of listening",
         "example": "मैं गाना सुन रहा हूँ। (Main gaana sun raha hoon. - I am listening to a song.)"
@@ -2193,7 +2194,7 @@
         "pronunciation": "karna",
         "meaning": "to do",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to express the action of doing something",
         "example": "तुम्हें क्या करना है? (Tumhen kya karna hai? - What do you have to do?)"
@@ -2204,7 +2205,7 @@
         "pronunciation": "jaana",
         "meaning": "to go",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to express the action of going somewhere",
         "example": "मैं स्कूल जा रहा हूँ। (Main school ja raha hoon. - I am going to school.)"
@@ -2215,7 +2216,7 @@
         "pronunciation": "aana",
         "meaning": "to come",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 8,
         "when_to_say": "to express the action of coming somewhere",
         "example": "वह कल आएगा। (Vah kal aayega. - He will come tomorrow.)"
@@ -2226,7 +2227,7 @@
         "pronunciation": "hona",
         "meaning": "to be",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "medium",
         "lesson_no": 8,
         "when_to_say": "to express existence or state of being",
         "example": "वह डॉक्टर है। (Vah doctor hai. - He is a doctor.)"
@@ -2237,7 +2238,7 @@
         "pronunciation": "lena",
         "meaning": "to take",
         "part_of_speech": "verb",
-        "difficulty": "difficult",
+        "difficulty": "easy",
         "lesson_no": 8,
         "when_to_say": "to express the action of taking something",
         "example": "मैं किताब ले लूँगा। (Main kitab le loonga. - I will take the book.)"

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 
 import { AuthContext } from "../Providers/AuthProvider";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 
 const UpdateInfo = () => {
@@ -30,8 +30,7 @@ const UpdateInfo = () => {
     return (
         <div className="flex items-center justify-center ">
             <div className=" p-8 max-w-md w-full my-5">
-                <h2 className="text-3xl font-bold text-black text-center mb-6">Create an Account</h2>
-                <p className="text-center text-black mb-8">Join us and enjoy exclusive benefits!</p>
+                <h2 className="text-3xl font-bold text-black text-center mb-6">Update Your Profile Information.</h2>
 
                 <form onSubmit={HandleUpdateUp} className="space-y-6">
 
@@ -72,7 +71,16 @@ const UpdateInfo = () => {
                     <button type="submit" className="w-full btn btn-info text-black py-2 rounded-lg font-semibold">
                         Update Profile
                     </button>
+
+                    <hr />
+
+                    <Link to={'/dashboard'}>
+                        <button className="w-full btn btn-warning my-5 text-black py-2 rounded-lg font-semibold">
+                            Go back
+                        </button></Link>
                 </form>
+
+
 
 
             </div>
