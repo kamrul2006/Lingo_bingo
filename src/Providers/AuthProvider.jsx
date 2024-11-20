@@ -60,18 +60,23 @@ const AuthProvider = ({ children }) => {
         }
     };
 
+    //-----------------------------------forget passWord------------------------
+
+    const [pEmail, setPEmail] = useState(null)
+
+
 
     //------------value here--------------------------
     const authInfo = {
-        user,
-        setUser,
+        user, setUser,
         CreateUserByMailPass,
         LoginUser,
         UserSignOut,
         loading,
         updatedProfile,
         GoogleLogin,
-        WordBoLa
+        WordBoLa,
+        pEmail, setPEmail
     }
 
     useEffect(() => {

@@ -15,6 +15,7 @@ import Lesson from './LayOuts/Lesson.jsx';
 import WordToShow from './Components/WordToShow.jsx';
 import TutorialsPage from './Pages/TutorialsPage.jsx';
 import UpdateInfo from './Components/Updateinfo.jsx';
+import ForgetPass from './Auth/ForgetPass.jsx';
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/login',
         element: <LoginPage></LoginPage>
+      },
+      {
+        path: '/login/forgetPassword',
+        element: <ForgetPass></ForgetPass>
       },
       {
         path: '/signUp',

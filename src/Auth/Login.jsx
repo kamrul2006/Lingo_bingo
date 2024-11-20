@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
@@ -6,6 +6,11 @@ import { AuthContext } from "../Providers/AuthProvider";
 
 
 const LoginPage = () => {
+  useEffect(() => {
+    document.title = "Lingo Bingo || Log in"
+  }, [])
+
+  const emailRef = useRef();
 
   const location = useLocation()
   // console.info(location)
@@ -23,7 +28,7 @@ const LoginPage = () => {
 
   //---------- Context use----------------------
 
-  const { LoginUser, setUser, GoogleLogin } = useContext(AuthContext)
+  const { LoginUser, setUser, GoogleLogin, setPEmail } = useContext(AuthContext)
 
   const HandleLogin = (e) => {
     e.preventDefault();
@@ -57,6 +62,11 @@ const LoginPage = () => {
       })
   }
 
+  // -------------------------------set email
+  const SetEmail = () => {
+    setPEmail(emailRef.current.value)
+  }
+
   return (
     <div className="min-h-screen flex items-center justify-center ">
       <div className="p-8 rounded-lg  max-w-md w-full">
@@ -70,6 +80,7 @@ const LoginPage = () => {
             </label>
             <input
               type="email"
+              ref={emailRef}
               id="email"
               name="email"
               className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
@@ -94,8 +105,7 @@ const LoginPage = () => {
 
             {/* --------------------------Forgot password section---------------------- */}
 
-            {/* https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox */}
-            <label className=" text-sm"><Link to='/signUp' className="text-indigo-500 font-semibold hover:underline">Forgot password?</Link>
+            <label onClick={SetEmail} className=" text-sm"><Link to='/login/forgetPassword' className="text-indigo-500 font-semibold hover:underline">Forgot password?</Link>
             </label>
 
             <button onClick={ShowPassWord} className="btn btn-ghost btn-xs absolute right-3 top-8 text-lg">
