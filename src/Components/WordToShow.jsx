@@ -24,7 +24,7 @@ const WordToShow = () => {
     useEffect(() => {
         const Hindi = Data.filter((word) => word.lesson_no == lessonNo.lesson_no)
         setWord(Hindi)
-        console.log(Hindi)
+        // console.log(Hindi)
     }, [])
 
     const HandleModal = (word) => {

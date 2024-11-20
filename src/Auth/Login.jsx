@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useContext, useEffect, useRef, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
@@ -57,7 +58,7 @@ const LoginPage = () => {
         navigate(location.state ? location.state : '/')
       })
       .catch(err => {
-        console.log(err);
+        // console.log(err);
         setUser(null)
       })
   }

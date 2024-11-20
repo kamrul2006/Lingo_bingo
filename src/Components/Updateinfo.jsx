@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { useContext } from "react";
 
 import { AuthContext } from "../Providers/AuthProvider";
@@ -10,7 +11,7 @@ const UpdateInfo = () => {
     //--------------------------Context use--------------------------
     const { user, setUser, updatedProfile } = useContext(AuthContext)
 
-    console.log(user)
+    // console.log(user)
 
     const HandleUpdateUp = (e) => {
         e.preventDefault();
@@ -22,7 +23,9 @@ const UpdateInfo = () => {
             .then(() => {
                 setUser(user)
                 navigate('/dashboard')
-            }).catch(err => console.log(err))
+            }).catch(err => {
+                
+            })
 
     }
 
