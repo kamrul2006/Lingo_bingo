@@ -56,14 +56,12 @@ const router = createBrowserRouter([
         path: '/dashboard',
         element: <PrivetRout><DashBoard></DashBoard></PrivetRout>
       },
-      {
-        path: '/dashboard/updateInfo',
-        element: <PrivetRout><UpdateInfo>F</UpdateInfo></PrivetRout>
-      },
-
     ]
   },
-
+  {
+    path: '/dashboard/updateInfo',
+    element: <PrivetRout><UpdateInfo></UpdateInfo></PrivetRout>
+  },
 
 ]);
 

@@ -33,7 +33,7 @@ const DashBoard = () => {
                         </div>
                         <div className=" flex flex-col items-center justify-center items-left gap-3">
                             <p className=" text-3xl font-serif">Name : <span className="font-sans">  {user.displayName}</span></p>
-                            <p className=" text-3xl font-serif">Email : <span className="font-sans">  {user.email}</span></p>
+                            <p className=" text-3xl font-serif">Email : <span className="font-sans">  {user.email ? user.email : "Not Added"}</span></p>
                             <p className=" text-3xl font-serif">Mobile : <span className="font-sans">  {user.phoneNumber ? user.phoneNumber : "Not Added."}</span></p>
                             <p className=" text-3xl font-serif">Verified : <span className="font-sans">  {user.emailVerified ? '✅' : "Not Verified."}</span></p>
                         </div>

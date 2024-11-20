@@ -19,12 +19,10 @@ const UpdateInfo = () => {
 
 
         updatedProfile({ displayName: Name, photoURL: Photo })
-            .then((userCredential) => {
-                //         // ----------------------------Signed up 
-                const user = userCredential.user;
+            .then(() => {
                 setUser(user)
                 navigate('/dashboard')
-            }).catch(err => (err.massage))
+            }).catch(err => console.log(err))
 
     }
 

@@ -23,7 +23,7 @@ const LoginPage = () => {
 
   //---------- Context use----------------------
 
-  const { LoginUser, setUser } = useContext(AuthContext)
+  const { LoginUser, setUser, GoogleLogin } = useContext(AuthContext)
 
   const HandleLogin = (e) => {
     e.preventDefault();
@@ -41,7 +41,20 @@ const LoginPage = () => {
         // console.log(error)
         if (error) { setError('Password or Email is invalid..!') }
       });
+  }
 
+  //------------------- HAndle google--------------
+  const HandleGoogleLogin = () => {
+    GoogleLogin()
+      .then((res) => {
+        // console.log(res.user)
+        setUser(res.user)
+        navigate(location.state ? location.state : '/')
+      })
+      .catch(err => {
+        console.log(err);
+        setUser(null)
+      })
   }
 
   return (
@@ -103,7 +116,7 @@ const LoginPage = () => {
 
         <div className="divider divider-info mt-8">or</div>
 
-        <button className="btn btn-sm rounded-full btn-warning w-full mt-1 mb-5">Log in With Google
+        <button onClick={HandleGoogleLogin} className="btn btn-sm rounded-full btn-warning w-full mt-1 mb-5">Log in With Google
           <img src="https://img.icons8.com/fluency/50/google-logo.png" alt="google-logo" className="w-5 shadow-lg border rounded-full" />
         </button>
 

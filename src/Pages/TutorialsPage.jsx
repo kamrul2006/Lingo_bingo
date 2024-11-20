@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect } from "react";
 import Tut from '../assets/Tut.png';
+import { Link } from "react-router-dom";
 
 const TutorialsPage = () => {
     useEffect(() => {
@@ -114,6 +115,14 @@ const TutorialsPage = () => {
                     <div>
                         <h1 className="text-center pt-7 text-3xl font-bold">Tutorial 11</h1>
                         <iframe src="https://www.youtube.com/embed/LcFlvXYCGUc?si=0FvYIkQCppAM4zsV&amp;start=2" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowfullscreen className="mx-auto rounded-lg shadow-lg md:w-[400px] w-3/4 h-60"></iframe>
+                    </div>
+
+                    <div className=" text-center flex flex-col items-center justify-center text-xl ">
+                        <Link to={"/lesson"}>
+                            <p className=" bg-sky-600 hover:bg-sky-500 py-2 px-5 text-white rounded-lg">Learn Vocabularies</p>
+
+                            <p className="py-2 px-5">Wants to learn some Vocabularies ? Click on the button now!</p>
+                        </Link>
                     </div>
 
                 </div>

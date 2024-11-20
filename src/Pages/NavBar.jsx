@@ -15,8 +15,9 @@ const NavBar = () => {
         <li><NavLink to={'/tutorials'}>Tutorials</NavLink></li>
         <li><NavLink to={'/aboutUs'}>About-us </NavLink></li>
         {user && <li><NavLink to={'/dashboard'}>My Profile</NavLink></li>}
-
     </>
+
+    // console.log(user, user.photoURL)
 
     return (
         <div>

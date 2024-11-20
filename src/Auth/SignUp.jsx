@@ -9,7 +9,7 @@ import { sendEmailVerification } from "firebase/auth";
 const SignUpSection = () => {
     const navigate = useNavigate()
     //--------------------------Context use--------------------------
-    const { CreateUserByMailPass, setUser, updatedProfile } = useContext(AuthContext)
+    const { CreateUserByMailPass, setUser, updatedProfile, GoogleLogin } = useContext(AuthContext)
 
     const [error, setError] = useState(null)
     const [success, setSuccess] = useState(null)
@@ -66,6 +66,20 @@ const SignUpSection = () => {
             });
 
 
+    }
+
+    //------------------- HAndle google--------------
+    const HandleGoogleLogin = () => {
+        GoogleLogin()
+            .then((res) => {
+                // console.log(res.user)
+                setUser(res.user)
+                navigate('/')
+            })
+            .catch(err => {
+                console.log(err);
+                setUser(null)
+            })
     }
 
     const ShowpassWord = (e) => {
@@ -171,7 +185,7 @@ const SignUpSection = () => {
 
                 <div className="divider divider-info mt-8">or</div>
 
-                <button className="btn btn-sm rounded-full btn-neutral w-full mt-1">Log in With Google
+                <button onClick={HandleGoogleLogin} className="btn btn-sm rounded-full btn-neutral w-full mt-1">Log in With Google
                     <img src="https://img.icons8.com/fluency/50/google-logo.png" alt="google-logo" className="w-5 shadow-lg" />
                 </button>
 
