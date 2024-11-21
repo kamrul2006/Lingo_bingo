@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 const Success = () => {
     return (
         <div className='bg-lime-100 py-7 my-5'>
-            <p className='text-3xl my-5 text-center font-bold'>What <span className=" font-serif">Lingo</span> <span className="text-blue-500 font-serif">Bingo</span> Got for you ?</p>
+            <p className='text-3xl my-5 text-center font-bold animate__animated animate__pulse animate__slow animate__delay-2s '>What <span className=" font-serif">Lingo</span> <span className="text-blue-500 font-serif">Bingo</span> Got for you ?</p>
 
             <div className="flex flex-col md:flex-row py-4 items-center justify-center rounded-2xl gap-10 my-5 md:my-10 mx-7 md:mx-20 bg-slate-50  shadow">
 

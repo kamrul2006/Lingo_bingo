@@ -3,6 +3,8 @@ import { useContext, useEffect, useRef, useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Providers/AuthProvider";
+import { sendPasswordResetEmail } from "firebase/auth";
+import { auth } from "../Firebase/firebase.config";
 
 
 
@@ -65,8 +67,13 @@ const LoginPage = () => {
 
   // -------------------------------set email
   const SetEmail = () => {
-    setPEmail(emailRef.current.value)
+    const Email = emailRef.current.value
+    setPEmail(Email)
+    sendPasswordResetEmail(auth, Email)
+      .then(() => { })
+      .catch(err => { })
   }
+
 
   return (
     <div className="min-h-screen flex items-center justify-center ">

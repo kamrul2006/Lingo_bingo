@@ -38,37 +38,31 @@ const UpdateInfo = () => {
                 <form onSubmit={HandleUpdateUp} className="space-y-6">
 
                     <div className="relative">
+                    <label className="my-3 text-sm mx-2">
+                            Full Name:
+                        </label>
                         <input
                             type="Text"
                             id="name"
                             name="name"
                             className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
-                            placeholder=" "
+                            placeholder=" Full name"
                             required
                         />
-                        <label
-                            htmlFor="email"
-                            className="absolute px-3 left-3 -top-3 text-white-500 bg-white transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:left-4 peer-focus:-top-3 peer-focus:left-3 peer-focus:text-blue-500 rounded-xl peer-focus:border peer-focus:border-blue-500 text-xs"
-                        >
-                            Full Name
-                        </label>
                     </div>
 
                     <div className="relative">
+                    <label className="my-3 text-sm mx-2">
+                            Photo Url:
+                        </label>
                         <input
                             type="text"
                             id="photo"
                             name="photoUrl"
                             className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
-                            placeholder=" "
+                            placeholder="Photo Url"
                             required
                         />
-                        <label
-                            htmlFor="email"
-                            className="absolute px-3 left-3 -top-3 text-white-500 bg-white transition-all peer-placeholder-shown:top-2.5 peer-placeholder-shown:left-4 peer-focus:-top-3 peer-focus:left-3 peer-focus:text-blue-500 rounded-xl peer-focus:border peer-focus:border-blue-500 text-xs"
-                        >
-                            Photo Link
-                        </label>
                     </div>
 
                     <button type="submit" className="w-full btn btn-info text-black py-2 rounded-lg font-semibold">

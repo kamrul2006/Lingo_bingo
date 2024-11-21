@@ -17,7 +17,7 @@ const Banner = () => {
 
             <div className="md:flex items-center justify-around w-full md:py-5 md:px-8 bg-pink-50 rounded-2xl">
               <div>
-                <h1 className="md:text-5xl text-2xl font-bold text-center font-serif">Learn any Languages Easily <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>😉</h1>
+                <h1 className="md:text-5xl text-2xl font-bold text-center font-serif animate__animated animate__swing  animate__delay-1s">Learn any Languages Easily <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>😉</h1>
 
                 <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Master any language with our <br /> interactive courses and expert guidance.</p>
 
@@ -45,7 +45,7 @@ const Banner = () => {
               </div>
 
               <div>
-                <h1 className="md:text-5xl text-2xl font-bold text-center font-serif">Boost Your Vocabulary <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>🧐</h1>
+                <h1 className="md:text-5xl text-2xl font-bold text-center font-serif animate__animated animate__swing  animate__delay-1s">Boost Your Vocabulary <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>🧐</h1>
 
                 <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Learn new words every day and enhance <br /> your communication skills.</p>
 

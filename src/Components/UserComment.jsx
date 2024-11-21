@@ -14,7 +14,7 @@ const UserComment = () => {
 
     return (
         <div className="py-5 md:py-10 bg-emerald-200">
-            <h1 className="text-center font-bold text-2xl">Whats people say About <span className="font-serif text-3xl">"Lingo <span className="text-blue-500">Bingo.</span>"</span></h1>
+            <h1 className="text-center font-bold text-2xl animate__animated animate__pulse animate__slow animate__delay-2s">Whats people say About <span className="font-serif text-3xl">"Lingo <span className="text-blue-500">Bingo.</span>"</span></h1>
 
             <div className="grid md:grid-cols-3 gap-5 mt-4 md:mt-8 md:mx-10 mx-3">
                 {Comments.map(comment => <div key={comment.id}

@@ -63,8 +63,9 @@ const WordToShow = () => {
                         className="my-2 px-3 py-2 rounded-lg">
                         <div className={`${wor.difficulty == "easy" && "bg-green-200 hover:bg-green-300 text-green-700"}
                      ${wor.difficulty == "difficult" && "bg-red-200 hover:bg-red-300  text-red-700"}  
-                     ${wor.difficulty == "medium" && "bg-orange-200 hover:bg-orange-300  text-orange-700"} md:pt-5 pt-2 lg:pt-10 text-3xl italic rounded-xl`}>
-                            <p className="font-extrabold lg:text-4xl"> {wor.word}</p>
+                     ${wor.difficulty == "medium" && "bg-orange-200 hover:bg-orange-300  text-orange-700"} md:pt-5 pt-2 lg:pt-10 text-3xl italic rounded-xl cursor-pointer`}>
+                            <p className="font-extrabold lg:text-4xl animate__animated animate__swing  animate__delay-1s animate__infinite
+                            animate__slow"> {wor.word}</p>
 
                             <p className="text-xl font-sans py-3">Meaning: {wor.meaning}</p>
                             <p className="text-xl font-sans bg-white py-2">Pronunciation: <br /> {wor.pronunciation}</p>

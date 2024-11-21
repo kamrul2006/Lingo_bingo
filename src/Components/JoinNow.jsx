@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const JoinNow = () => {
     return (
         <div className="bg-yellow-400 text-center my-4">
-            <h1 className="md:text-4xl text-2xl text-center text-white font-bold pt-2 md:pb-6 md:pt-10">🌟Join <span className="font-serif text-3xl md:text-5xl text-black">Lingo <span className="text-blue-500">Bingo.</span></span> Now🌟
+            <h1 className="md:text-4xl text-2xl text-center text-white font-bold pt-2 md:pb-6 md:pt-10 animate__animated animate__pulse animate__slow animate__delay-2s ">🌟Join <span className="font-serif text-3xl md:text-5xl text-black">Lingo <span className="text-blue-500">Bingo.</span></span> Now🌟
             </h1>
 
             <p className="font-semibold text-lg md:text-xl py-3 md:px-52 px-5">

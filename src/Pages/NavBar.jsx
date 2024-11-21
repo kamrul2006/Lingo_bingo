@@ -21,10 +21,10 @@ const NavBar = () => {
 
     return (
         <div>
-            {user && <p className="text-center  font-semibold py-1 italic font-serif bg-sky-400 flex items-center justify-center gap-2">
-                <img src="https://cdn.pixabay.com/animation/2022/10/11/03/16/03-16-38-134_512.gif" alt="Welcome" className="w-28" />
+            {user && <p className="text-center text-sm md:text-base  font-semibold py-1 italic font-serif bg-sky-400 flex items-center justify-center gap-2">
+                <img src="https://cdn.pixabay.com/animation/2022/10/11/03/16/03-16-38-134_512.gif" alt="Welcome" className="w-16 md:w-28" />
                 {user.displayName} </p>}
-            <div className="navbar bg-base-100 md:px-10">
+            <div className="navbar md:px-10 bg-yellow-100">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost btn-sm btn-circle lg:hidden">
@@ -37,7 +37,7 @@ const NavBar = () => {
                         </ul>
                     </div>
                     <img src="https://cdn-icons-png.flaticon.com/256/5280/5280696.png" className="w-8 ml-4  md:w-14" />
-                    <NavLink to={'/'} className="text-lg font-serif mx-2 md:text-3xl lg:text-4xl font-bold">Lingo <span className="text-blue-500">Bingo</span></NavLink>
+                    <NavLink to={'/'} className="text-lg font-serif mx-2 md:text-3xl lg:text-4xl font-bold animate__animated animate__pulse animate__slow animate__delay-2s animate__infinite">Lingo <span className="text-blue-500">Bingo</span></NavLink>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

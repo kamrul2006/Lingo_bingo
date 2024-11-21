@@ -14,7 +14,7 @@ const ForgetPass = () => {
     return (
         <div className="h-screen flex items-center gap-5 mx-4 md:mx-20">
 
-            <div>
+            <div className="hidden md:block">
                 <img src={Fp} className="w-96" />
             </div>
 

@@ -20,7 +20,7 @@ const Lesson = () => {
         <div>
             <div>
                 <p className="my-4 md:my-8 text-center text-2xl md:text-5xl font-bold font-serif">Here are the Lessons for you !</p>
-                <p className="my-4 md:px-20 text-center text-xl md:text-2xl font-semibold text-gray-500">Complete all Lessons on time , and stay confident. You can do it. HAPPY LEARNING👍.Thanks for being with <span className="text-2xl text-black font-serif">"Lingo <span className="text-blue-500">Bingo.</span>"</span></p>
+                <p className="my-4 md:px-20 text-center text-lg md:text-2xl font-semibold text-gray-500">Complete all Lessons on time , and stay confident. You can do it. HAPPY LEARNING👍.Thanks for being with <span className="text-2xl text-black font-serif">"Lingo <span className="text-blue-500">Bingo.</span>"</span></p>
             </div>
 
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-7  md:mx-20 my-5">
@@ -30,8 +30,8 @@ const Lesson = () => {
                         {Dadas.map((data, i) => <div key={i}>
                             <Link to={`/lesson/${data.lesson_no}`}>
                                 <div className="text-center p-4 border-2 rounded-lg bg-white shadow-md">
-                                    <img src={lesson} alt="Lesson" className="w-60 mx-auto" />
-                                    <p className="text-7xl font-serif font-bold text-red-500">{data.lesson_no}</p>
+                                    <img src={lesson} alt="Lesson" className="w-48 mx-auto" />
+                                    <p className="text-4xl font-serif font-bold text-red-500 animate__animated animate__flip animate__slow  animate__infinite">{data.lesson_no}</p>
                                 </div>
                             </Link>
                         </div>)}

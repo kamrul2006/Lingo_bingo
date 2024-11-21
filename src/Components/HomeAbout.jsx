@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const HomeAbout = () => {
     return (
         <div className="mx-4 md:mx-0 md:px-8 px-0 md:py-5 my-5 md:my-8 bg-teal-50 text-lg font-semibold">
-            <h1 className="text-center font-bold text-2xl">Mission of <span className="font-serif text-3xl">"Lingo <span className="text-blue-500">Bingo.</span>"</span></h1>
+            <h1 className="text-center font-bold text-2xl animate__animated animate__heartBeat">Mission of <span className="font-serif text-3xl">"Lingo <span className="text-blue-500">Bingo.</span>"</span></h1>
 
 
             <p className="text-center py-2">
