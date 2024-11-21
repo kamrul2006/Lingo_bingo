@@ -29,7 +29,7 @@ const ForgetPass = () => {
                             type="email"
                             id="email"
                             name="email"
-                            value={pEmail && pEmail}
+                            defaultValue={pEmail ? pEmail : ""}
                             className="w-full px-4 py-2 border border-white-300 rounded-lg focus:outline-none focus:border-blue-500 peer"
                             placeholder="Inter Email "
                             required

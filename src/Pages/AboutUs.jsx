@@ -7,32 +7,35 @@ const AboutUs = () => {
     }, [])
 
     return (
-        <div className="md:flex gap-3 mx-2 my-5 md:my-8 lg:my-14 md:mx-10 lg:mx-14">
+        <div className="md:flex items-center text-center gap-3 mx-2 my-5 md:my-8 lg:my-14 md:mx-10 lg:mx-14">
             <div className='hidden md:block'>
-                <img src={about} alt="" />
+                <img src={about} className="w-60" />
             </div>
-            <div>
-                About Us
+            <div className='px-4 md:mx-10'>
+                <p className='text-3xl  font-bold animate__animated animate__slow animate__shakeY animate__infinite text-red-500'>About Us:</p>
 
-                Our Mission
+                <div className='my-5 rounded-2xl shadow-lg bg-slate-50 py-3 px-10 text-left'>
+                    <p className='py-4 text-2xl font-semibold'>Our Mission</p>
 
-                At [Your Website Name], {"we're"} passionate about making language learning accessible and enjoyable for everyone. Our mission is to provide a comprehensive platform where learners can effortlessly expand their vocabulary and master a new language.
+                    <p>At Lingo Bingo, {"we're"} passionate about making language learning accessible and enjoyable for everyone. Our mission is to provide a comprehensive platform where learners can effortlessly expand their vocabulary and master a new language.</p>
 
-                How It Works
+                    <p className='py-4 text-2xl font-semibold'>How It Works</p>
 
-                Our innovative approach combines the power of technology with proven language learning techniques. {"Here's"} how it works:
+                    <p> Our innovative approach combines the power of technology with proven language learning techniques. {"Here's"} how it works:</p >
 
-                Discover New Words: Immerse yourself in a vast collection of carefully curated vocabulary lists, categorized by topic and difficulty level.
+                    <p > Discover New Words: Immerse yourself in a vast collection of carefully curated vocabulary lists, categorized by topic and difficulty level.</p >
 
-                Learn Through Interactive Exercises: Strengthen your understanding with a variety of engaging exercises, including flashcards, quizzes, and word games.
+                    <p > Learn Through Interactive Exercises: Strengthen your understanding with a variety of engaging exercises, including flashcards, quizzes, and word games.</p >
 
-                Practice in Context: Apply your new vocabulary in real-life scenarios through contextualized examples and practice sentences.
+                    <p > Practice in Context: Apply your new vocabulary in real - life scenarios through contextualized examples and practice sentences.</p >
 
-                Track Your Progress: Monitor your learning journey with detailed progress reports and personalized recommendations.
+                    <p > Track Your Progress: Monitor your learning journey with detailed progress reports and personalized recommendations.</p >
 
-                Whether {"you're"} a beginner or an advanced learner, [Your Website Name] offers a tailored experience to help you achieve your language goals. Join our community of language enthusiasts and embark on a rewarding linguistic adventure today!
-            </div>
-        </div>
+                    <p className='font-bold my-4 text-violet-500'> Whether {"you're"} a beginner or an advanced learner, Lingo Bingo offers a tailored experience to help you achieve your language goals.Join our community of language enthusiasts and embark on a rewarding linguistic adventure today!</p >
+
+                </div>
+            </div >
+        </div >
     );
 };
 

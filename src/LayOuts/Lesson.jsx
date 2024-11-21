@@ -22,11 +22,12 @@ const Lesson = () => {
                 <p className="my-4 md:my-8 text-center text-2xl md:text-5xl font-bold font-serif">Here are the Lessons for you !</p>
                 <p className="my-4 md:px-20 text-center text-lg md:text-2xl font-semibold text-gray-500">Complete all Lessons on time , and stay confident. You can do it. HAPPY LEARNING👍.Thanks for being with <span className="text-2xl text-black font-serif">"Lingo <span className="text-blue-500">Bingo.</span>"</span></p>
             </div>
-
+            <div className="text-xl font-bold text-center mx-auto my-3 bg-slate-300">Total lesson: {Dadas.length}</div>
             <div className="grid grid-cols-1 gap-4 lg:grid-cols-7  md:mx-20 my-5">
 
-                <div className="grid md:grid-cols-2  gap-3 md:col-span-5">
-                    <div className="md:col-span-5 grid md:grid-cols-2 gap-3 bg-fuchsia-300 px-4 py-3">
+                <div className="grid md:grid-cols-2  gap-3 md:col-span-5 ">
+                    <div className="md:col-span-5 grid md:grid-cols-2 gap-3 bg-fuchsia-200 rounded-lg px-4 py-7">
+
                         {Dadas.map((data, i) => <div key={i}>
                             <Link to={`/lesson/${data.lesson_no}`}>
                                 <div className="text-center p-4 border-2 rounded-lg bg-white shadow-md">
@@ -38,7 +39,7 @@ const Lesson = () => {
                     </div>
 
 
-                    <div className="md:col-span-5 my-4 py-2 md:py-8 px-4 bg-emerald-200">
+                    <div className="md:col-span-5 my-4 py-2 md:py-8 px-4 bg-emerald-200 rounded-lg">
                         <h1 className="text-3xl font-bold bg-white py-1 text-center">  Tutorials for you</h1>
 
                         <div className="md:flex items-center gap-3 my-4">
@@ -54,7 +55,7 @@ const Lesson = () => {
                                 </iframe>
                             </div>
 
-                            <div>
+                            <div className="mt-4 md:mt-0">
                                 <iframe
                                     src="https://www.youtube.com/embed/XunD5fk8wr4?si=gzVFjaO4QFu9nX-l"
                                     title="YouTube video player"

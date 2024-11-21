@@ -13,9 +13,9 @@ const JoinNow = () => {
                 Connect with language enthusiasts around the world! Share tips, practice together, and explore new ways to master your vocabulary.
             </p>
 
-            <div className="md:flex  items-center justify-center gap-4 py-4 ">
+            <div className="md:flex px-5  items-center justify-center gap-4 py-4 ">
                 <Link to="/signup" >
-                    <p className="px-8 py-3 bg-white text-yellow-500 rounded-lg shadow-md font-semibold hover:bg-gray-200 text-lg" >
+                    <p className="px-8 py-3 my-2 bg-white text-yellow-500 rounded-lg shadow-md font-semibold hover:bg-gray-200 text-lg" >
                         Sign Up Now
                     </p></Link>
 
