@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+import { Link } from "react-router-dom";
 import lan1 from "../assets/lan-1.png"
 import lan2 from "../assets/lan-2.png"
 import lan3 from "../assets/lan-3.png"
@@ -21,6 +23,7 @@ const Banner = () => {
 
                 <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Master any language with our <br /> interactive courses and expert guidance.</p>
 
+                <Link to={'/lesson'}><p className="bg-red-400 w-fit px-4 py-1 rounded-full hover:font-bold text-center mx-auto my-5 ">Let's Learn</p></Link>
               </div>
               <div className="md:w-[400px] w-60 md:h-[400px] h-60 mx-auto">
                 <img src={lan1} alt="" className="w-full mx-auto h-full rounded-xl object-cover" />
@@ -48,7 +51,7 @@ const Banner = () => {
                 <h1 className="md:text-5xl text-2xl font-bold text-center font-serif animate__animated animate__swing  animate__delay-1s">Boost Your Vocabulary <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>🧐</h1>
 
                 <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Learn new words every day and enhance <br /> your communication skills.</p>
-
+                <Link to={'/lesson'}><p className="bg-blue-400 w-fit px-4 py-1 rounded-full hover:font-bold text-center mx-auto my-5 ">Let's Learn</p></Link>
                 <div className="absolute left-5 right-5 top-[420px] md:top-1/2 flex -translate-y-1/2 transform gap-2 md:justify-between">
                   <a href="#item1" className="btn btn-xs md:btn-sm btn-secondary btn-circle">❮ 1</a>
                   <a href="#item3" className="btn btn-xs md:btn-sm btn-secondary btn-circle">3 ❯</a>
@@ -74,7 +77,7 @@ const Banner = () => {
                 <h1 className="md:text-5xl text-2xl font-bold text-center font-serif">Speak with Confidence <br /> with  <span className="text-black text-3xl md:text-6xl font-serif"> Lingo</span> <span className="text-blue-500 font-serif text-3xl md:text-6xl my-3"> Bingo</span>😇</h1>
 
                 <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Practice speaking with our AI tools and <br /> native language coaches.</p>
-
+                <Link to={'/lesson'}><p className="bg-green-400 w-fit px-4 py-1 rounded-full hover:font-bold text-center mx-auto my-5 ">Let's Learn</p></Link>
                 <div className="absolute left-5 right-5 top-[420px] md:top-1/2 flex -translate-y-1/2 transform gap-2 md:justify-between">
                   <a href="#item3" className="btn btn-xs md:btn-sm btn-info btn-circle">❮ 3</a>
                   <a href="#item1" className="btn btn-xs md:btn-sm btn-info btn-circle">1 ❯</a>
@@ -97,6 +100,7 @@ const Banner = () => {
 
                   <p className="text-center text-gray-500 text-base md:text-xl font-semibold my-4">Practice your every day lesson properly, because <br /> Practice makes a man perfect.</p>
 
+                  <Link to={'/lesson'}><p className="bg-orange-400 w-fit px-4 py-1 rounded-full hover:font-bold text-center mx-auto my-5 ">Let's Learn</p></Link>
                 </div>
 
                 <div className="md:w-[470px] w-60 md:h-[380px] h-60 mx-auto">
