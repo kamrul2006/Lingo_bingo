@@ -9,8 +9,6 @@ Learning a new language can be challenging, especially when it comes to retainin
 
 ------------------------------
 
-*Assignment Category: 003*
-# **REPO LINK: https://github.com/programming-hero-web-course1/b10-a9-authentication-kamrul2006**
 # **LIVE LINK: https://lingo-bingo-4a734.web.app**
 
 ---------------------------
