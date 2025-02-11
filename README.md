@@ -38,7 +38,7 @@ Learning a new language can be challenging, especially when it comes to retainin
 
 1. **Clone the repository**  
    ```sh
-   git clone https://github.com/your-repo/k-visa.git
+   git clone '------repository link----'
    cd k-visa
    ```
 
@@ -128,13 +128,7 @@ This project is licensed under the **MIT License**.
 
 ---
 
-✨ **Enjoy Building with K-VISA!** 🚀
+✨ **Enjoy Building with Lingo_Bingo!** 🚀
 ```
-
----
-
-This README provides a **clear structure**, includes **important details**, and follows best practices for open-source projects. Let me know if you need any changes! 🚀
-
-
 # Thank you.💐
 - kamrulislamapurba@gmail.com
