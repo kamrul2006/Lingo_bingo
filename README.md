@@ -39,7 +39,7 @@ Learning a new language can be challenging, especially when it comes to retainin
 1. **Clone the repository**  
    ```sh
    git clone '------repository link----'
-   cd k-visa
+   cd '--project file---'
    ```
 
 2. **Install dependencies**  
